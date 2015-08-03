@@ -1,0 +1,302 @@
+/************************************************
+				Typography
+************************************************/
+h1{
+	font-family: Alegreya;
+	font-size:4em;
+}
+
+.info-row h2{
+	font-size: 1.7em;
+}
+
+.bridge h2, .bridge p{
+	text-align: center;
+}
+
+.bridge p{
+	font-size: 1.4em;
+}
+
+.footer p{
+	font-size: 1.2em;
+}
+
+.navbar-brand{
+	color: black !important;
+	font-family: Alegreya;
+	font-size: 3.8em;
+}
+
+.handouts{
+	text-align: center;
+	padding:100px 0px 50px 0px;;
+}
+/************************************************
+				General
+************************************************/
+body, html{
+	 
+    overflow-x: hidden; 
+	
+}
+body{
+	padding-top:145px;
+}
+
+ul li{
+	list-style: none;
+}
+/************************************************
+				Images
+************************************************/
+.icon{
+	width:20px;
+	height:20px;
+}
+
+.icons{
+	width:80px;
+	height:80px;
+}
+
+.minionteach{
+	padding-top:30px;
+	padding-bottom: 20px;
+}
+/************************************************
+				Navigation
+************************************************/
+.navbar-inverse {
+    background-color: #f5f5f5;
+    border-bottom:solid 6px #DE1B1B;
+	}
+
+.menu :nth-child(odd) a {
+	background-color: #DE1B1B;
+	color: #f6f6f6 !important;}
+
+.menu :nth-child(even) a{
+	background-color: #2B2B2B;
+	color: #f6f6f6;
+} 
+
+.menu :nth-child(1) a,.menu :nth-child(9) a{
+	background-color: #000;
+	color: #f6f6f6 !important;
+}
+
+.menu :nth-child(n+4) a{
+	color: #f6f6f6 !important;
+}
+
+.menu a{
+	text-shadow: 2px 2px 4px black;
+	
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse  .navbar-nav > .active >   
+ a:hover, .navbar-inverse  .navbar-nav > .active > a:focus {
+color: black; !important; /*BACKGROUND color for active*/
+background-color: lightgray;
+}
+
+.menu li a{
+	box-shadow: 0px 0px 10px black;
+	
+}
+
+.menu{
+	text-align: center;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.icon-bar{
+	background-color:black;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: black;
+}
+
+.dropdown-menu {
+    position: static !important;
+}
+/************************************************
+				Float
+************************************************/
+
+/************************************************
+		Student of The Month
+************************************************/
+
+/************************************************
+				Carousel
+************************************************/
+#carousel{
+	height:400px;
+	max-height:400px;
+	background-color: #eee;
+	
+}
+
+#carousel img{
+	height:400px;
+	max-height: 400px;
+	width: 100%;	
+}
+
+.color{
+	background-color: #2b2b2b;
+	border-top:solid 10px white;
+	border-bottom:solid 6px white
+}
+/************************************************
+				Row 1
+************************************************/
+.color-row1{
+	background-color: #000;
+	border-top:solid 6px #DE1B1B;
+	border-bottom:solid 6px white;
+}
+.info-row h2, .info-row p{
+	text-align: center;
+	color:aliceblue;
+}
+
+.info-row{
+	padding-top:40px;
+	padding-bottom:10px;
+	margin: auto;
+}
+
+/************************************************
+				Row 1 Mobile
+************************************************/
+.mobile-row{
+	
+	
+}
+.mobile-row p{
+	width:60%;
+	margin: auto;
+	padding-bottom: 10px;
+}
+
+.row-p{
+	border-bottom: solid 2px #eee;
+}
+/************************************************
+				Row 2
+************************************************/
+.heading{
+	text-align: center;
+	background-color: #DE1B1b;
+	color: aliceblue;
+	font-size: 2em;
+	color: aliceblue;
+	text-shadow: 2px 2px 2px black; 
+	box-shadow: 4px 4px  4px 4px black;
+	margin: 0;
+}
+
+.bridge{
+	border-bottom: solid 1px slategrey;
+}
+
+
+.color-row2{
+	border-bottom: solid 6px #000;
+}
+
+/************************************************
+				Grid
+************************************************/
+
+/************************************************
+			iFrame
+************************************************/
+.iframe-container{
+	width: 90%;
+}
+
+iframe{
+	border: solid 4px;	
+	width:80%;
+	margin: auto;
+	height:390px;
+}
+
+.que ul li{
+	padding-top: 30px;
+	text-align: center;
+	list-style: none;
+	padding-bottom: 40px;
+}
+
+#mc_embed_signup{
+	width:60%;
+	text-align: center;
+	margin: auto;
+}
+/************************************************
+				Footer
+************************************************/
+footer{
+	background-color:#DE1B1b;
+	color:aliceblue;
+	text-align: center;
+	border-top: solid 6px #f6f6f6;
+	border-bottom: solid 6px black;
+	
+}
+
+f
+.footer{
+	list-style: none;
+	text-align: center;
+	padding-left: 300px;	
+}
+
+
+
+.footer li{
+	display: inline-block;
+	padding-top:10px;
+	padding-right: 0%;
+	
+}
+
+.footer li img{
+	height:40px;
+	width:40px;
+	padding-right:5px;
+	margin-top: 0px;
+	
+}
+
+
+.contact{
+	padding-top:15px;
+	padding-left:120px
+	
+}
+/************************************************
+				Media Queries
+************************************************/
+@media (max-width: 776px){
+	body{
+		padding-top:46px;
+	}
+}
+/************************************************
+
+************************************************/
